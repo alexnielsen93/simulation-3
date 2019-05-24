@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+.batman{
+color: black;
+text-shadow:  -2px -2px yellow;
+}
+.robin{
+  color: red;
+  text-shadow: 2px 1px green;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+.App-body{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20vh;
+}
+.three-columns{
+  display: flex;
+  justify-content: space-between;
+}
+.App-header {
+  padding-top: 0;
+  position: fixed;
+  z-index: 1000;
+  width: 100vw;
+  height: 20vh;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes spinny {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animation:hover{
+  
+  animation-name: spinny;
+  animation-duration: 5s;
+  transition-duration: 2s;
+  
+
+  
+}
+.fancy-text{
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+.fancy-text-box{
+  width: 50vw;
+  height: 20vh;
+  
+  background-image: radial-gradient(red, white, blue,red,white,blue,red,white,blue);
+  box-shadow: 2px 2px yellow
+}
+
+.App-body{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column{
+background-color: brown;
+
+}
+.right-column{
+background-color: green;
+display: flex;
+flex-wrap: wrap;
+
+}
+.wrap-box{
+  width: 5em;
+  height: 10%;
+  border: 2px solid black;
+}
+
+.rick{
+  text-align: right;
+  color: #B7E5F9;
+  text-shadow: 1px 1px white;
+}
+.morty{
+  color:#FAFF6D;
+  text-shadow: 2px 2px  #824916; 
+  text-align: left;
+}
+.rick-foot{
+  background-color: #282c34;
+
+}
